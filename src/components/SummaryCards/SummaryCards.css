@@ -1,0 +1,38 @@
+.summary-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.summary-icon-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.summary-icon-primary { background-color: rgba(59, 130, 246, 0.1); color: var(--primary-color); }
+.summary-icon-success { background-color: rgba(16, 185, 129, 0.1); color: var(--success-color); }
+.summary-icon-warning { background-color: rgba(245, 158, 11, 0.1); color: var(--warning-color); }
+.summary-icon-info { background-color: rgba(14, 165, 233, 0.1); color: var(--info-color); }
+
+.summary-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.summary-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 0.25rem;
+}
